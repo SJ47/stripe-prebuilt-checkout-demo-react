@@ -4,24 +4,25 @@
 
 Clone repo
 
-From a terminal window:
-cd client
+From a terminal window 
 
-### `npm install`
+`cd client`
 
-cd server
+`npm install`
 
-### `npm install`
+`cd server`
+
+`npm install`
 
 ## Stripe Setup
 
 Update server.js file with your own Stripe key
 
-### `const stripe = require('stripe')('YOUR_SK_TEST_KEY_GOES_HERE')`
+`const stripe = require('stripe')('YOUR_SK_TEST_KEY_GOES_HERE')`
 
 In the main project directory, you run:
 
-### `npm start`
+`npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
