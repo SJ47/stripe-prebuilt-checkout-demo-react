@@ -3,15 +3,12 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import './App.css';
 import Cancel from './Components/Cancel';
-// import Checkout from './Components/Checkout';
 import Success from './Components/Success';
 import StripeContainer from './Containers/StripeContainer';
 
 function App() {
   return (
     <div className="App">
-
-      {/* <StripeContainer /> */}
       <Router>
         <Switch>
           <Route exact path="/" component={StripeContainer} />
