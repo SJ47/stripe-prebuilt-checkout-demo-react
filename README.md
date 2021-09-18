@@ -20,9 +20,9 @@ Update server.js file with your own Stripe key
 
 `const stripe = require('stripe')('YOUR_SK_TEST_KEY_GOES_HERE')`
 
-In the main project directory, you run:
+In the `client` directory, run `npm start` to run the client app in development mode.
 
-`npm start`
+In the `server` directory, run `npm run server:dev` to run the server in development mode.
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
